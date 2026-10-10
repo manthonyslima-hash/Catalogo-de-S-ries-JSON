@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Séries JSON</title>
+    <link rel="stylesheet" href="ImportaJSON/css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Diversas Séries em destaque! 🎬</h1>
+        <p>Encontre suas séries favoritas! 🤩 </p>
+    </header>
+
+    <main>
+
+        <section class="controles">
+
+            <button id="btnBuscar"> Buscar </button>
+            <button id="btnTotal"> Total </button>
+            <button id="btnAntiga"> Mais antiga </button>
+            <button id="btnRecente"> Mais recente </button>
+
+        </section>
+
+        <input
+            type="text"
+            id="pesquisa"
+            placeholder="Pesquisar série pelo título...">
+
+            <input 
+                type="number"
+                id="anoPesquisa"
+                placeholder="Filtrar por ano">
+
+        <h2>Filtrar por gênero</h2>
+
+        <div class="botoes-genero">
+            <button class="btnGenero" data-genero="Todos">Todas</button>
+            <button class="btnGenero" data-genero="Ficção científica">Ficção científica</button>
+            <button class="btnGenero" data-genero="Drama">Drama</button>
+            <button class="btnGenero" data-genero="Terror">Terror</button>
+            <button class="btnGenero" data-genero="Ação">Ação</button>
+            <button class="btnGenero" data-genero="Suspense">Suspense</button>
+            <button class="btnGenero" data-genero="Fansatia">Fantasia</button>
+        </div>
+
+        <button id="btnOrdenar">Procurar</button>
+
+        <section class="status-area">
+            <p id="status"></p>
+        </section>
+
+        <section
+            id="listaSeries"
+            class="lista-series">
+        </section>
+
+    </main>
+
+    <footer>
+        <P> Atividade de Catálogo de Séries com JSON • ETEC Guarulhos • Matheus Anthony </P>
+    </footer>
+
+    <script src="ImportaJSON/js/app.js"></script>
+    
+</body>
+</html>

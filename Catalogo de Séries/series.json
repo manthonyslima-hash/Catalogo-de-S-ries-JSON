@@ -1,0 +1,58 @@
+[
+    {
+        "titulo": "Stranger Things",
+        "ano": 2016,
+        "genero": "Ficção científica, terror",
+        "temporadas": 5,
+        "imagem": "img/stranger.webp"
+    },
+    {
+        "titulo": "Breaking Bad",
+        "ano": 2008,
+        "genero": "Drama, policial",
+        "temporadas": 5,
+        "imagem": "img/breakingbad.png"
+    },
+    {
+        "titulo": "The Walking Dead",
+        "ano": 2010,
+        "genero": "Terror, drama",
+        "temporadas": 11,
+        "imagem": "img/thewalking.webp"
+    },
+    {
+        "titulo": "Game of Thrones",
+        "ano": 2011,
+        "genero": "Fantasia e Drama",
+        "temporadas": 8,
+        "imagem": "img/thrones.jpg"
+    },
+    {
+        "titulo": "La Casa de Papel",
+        "ano": 2017,
+        "genero": "Ação e suspense policial",
+        "temporadas": 5,
+        "imagem": "img/lacasa.webp"
+    },
+    {
+        "titulo": "The Last of Us",
+        "ano": 2023,
+        "genero": "Drama, ação e pós-apocalíptico",
+        "temporadas": 2,
+        "imagem": "img/thelast.webp"
+    },
+    {
+        "titulo": "Prison Break",
+        "ano": 2005,
+        "genero": "Ação, drama e suspense policial",
+        "temporadas": 5,
+        "imagem": "img/prisonbreak.webp"
+    },
+    {
+        "titulo": "YOU",
+        "ano": 2018,
+        "genero": "Suspense psicológico e Drama",
+        "temporadas": 5,
+        "imagem": "img/you.jpg"
+    }
+]
